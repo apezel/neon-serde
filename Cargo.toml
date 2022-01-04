@@ -1,6 +1,6 @@
 [package]
-name = "neon-serde2"
-version = "0.8.0"
+name = "neon-serde"
+version = "0.9.0"
 authors = [
     "Damir Jelić <poljar@termina.org.uk>",
     "Gabriel Castro <dev@GabrielCastro.ca>"
