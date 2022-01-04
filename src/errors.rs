@@ -88,3 +88,9 @@ impl From<neon::result::Throw> for Error {
         ErrorKind::Js(throw).into()
     }
 }
+
+impl From<Error> for neon::result::Throw {
+    fn from(_err: Error) -> Self {
+        neon::result::Throw {}
+    }
+}
